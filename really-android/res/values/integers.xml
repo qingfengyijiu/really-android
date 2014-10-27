@@ -1,0 +1,4 @@
+<resources>
+    
+    <integer name="page_size">15</integer>
+</resources>

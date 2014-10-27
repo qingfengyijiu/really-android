@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip">
+    
+    <LinearLayout android:id="@+id/layout_register_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView android:text="用户名"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/edittext_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <TextView android:text="密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"/>
+        
+        <TextView android:text="再次输入密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/edittext_password_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"/>
+        
+        <TextView android:text="邮箱"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <Button android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="注册"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dip">
+         <TextView android:text="点选“注册”，即视为接受并遵守"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"/>
+	    <TextView android:id="@+id/textview_link_register"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="注册条款"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+         <TextView android:text="并且了解"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"/>
+	    <TextView android:id="@+id/textview_link_privacy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="隐私条款"/>
+        
+    </LinearLayout>
+    
+	<TextView android:id="@+id/textview_login"
+	    android:text="用已有账户登录"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dip"
+	    android:gravity="center"/>   
+    
+</LinearLayout>

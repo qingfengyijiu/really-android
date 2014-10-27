@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/action_edit"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="edit"
+        android:layout_width="150dip"
+        android:layout_marginRight="20dip"/>
+    
+    <item 
+        android:id="@+id/action_circle"
+        android:orderInCategory="102"
+        android:showAsAction="always|withText"
+        android:title="圈子"
+        android:layout_width="150dip"/>
+    
+    <item 
+        android:id="@+id/action_discover"
+        android:orderInCategory="103"
+        android:showAsAction="always|withText"
+        android:title="发现"
+        android:layout_width="150dip"
+        android:layout_marginRight="20dip"/>
+    
+    <item 
+        android:id="@+id/action_notice"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom|withText"
+        android:title="通知"
+        android:layout_width="150dip"/>
+    
+    <item 
+        android:id="@+id/action_invite_friends"
+        android:orderInCategory="105"
+        android:showAsAction="ifRoom|withText"
+        android:title="邀请朋友"
+        android:layout_width="150dip"/>
+    
+    <item 
+        android:id="@+id/action_feedback"
+        android:orderInCategory="106"
+        android:showAsAction="ifRoom|withText"
+        android:title="意见反馈"
+        android:layout_width="150dip"/>
+    
+    <item 
+        android:id="@+id/action_settings"
+        android:orderInCategory="107"
+        android:showAsAction="ifRoom|withText"
+        android:title="设置"
+        android:layout_width="150dip"/>
+
+</menu>
